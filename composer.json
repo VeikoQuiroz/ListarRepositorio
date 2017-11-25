@@ -1,0 +1,28 @@
+{
+    "name": "ListarRepositorio",
+    "description": "ListarRepositorio",
+    "keywords": ["cloud", "rest"],
+    "homepage": "https://github.com/VeikoQuiroz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Veiko Quiroz",
+            "email": "veiko.quiroz@gmail.com",
+            "homepage": "https://github.com/VeikoQuiroz"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "web/src/"
+        }
+    },
+    "config": {
+        "process-timeout" : 0
+    }
+}
